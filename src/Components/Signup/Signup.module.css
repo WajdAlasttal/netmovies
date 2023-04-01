@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@700&display=swap');
+.signup{
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.notesPanel{
+    width: 22%;
+    margin: 2%;
+    border: 1px solid rgb(227,227,227);
+    border-radius: 8px;
+    box-shadow: 5px 4px 10px rgba(0,0,0,0.2);
+}
+h3{
+    font-size: 19.2px!important;
+}
+.header{
+    color: #fff;
+    padding: 8%;
+    background-color:#252424;
+    border: 1px solid #252424;
+    border-radius:8px 8px 0 0;
+}
+.notes{
+    display: flex;
+    flex-wrap: wrap;
+    overflow: visible;
+    font-size: 16px;
+}
+.notelist{
+    width: 95%;
+    line-height: 1.5em;
+    margin-top: 2%;
+    margin-right: 2%;
+}
+.signupform{
+    margin: 2%;
+
+}
+.signupheader{
+    font-size: 24px!important;
+}
+.signupbtn{
+    color: #fff;
+    font-weight: 700;
+    border-color: transparent;
+    font-size: 15px!important;
+    padding: 10px 29px!important; 
+    border-radius: 8px!important;
+    background-color:#252424;
+}
+@media (max-width: 1000px) { 
+    .signup{
+        margin: 5% 0;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    .signup .notesPanel{
+        width: 90%;
+        
+    }
+}

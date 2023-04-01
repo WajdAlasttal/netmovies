@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@700&display=swap');
+
+.footer{
+    background-color:#252424;
+    color: #fff;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 700!important;
+}
+
+.joincom{
+    font-size: 15px;
+    margin-top: 30%;
+    color:#fff;
+    text-decoration: none;
+    border: 2px solid #383636;
+    border-radius: 3px;
+    background-color: #383636;
+    padding: 2px;
+}
+.joincom:hover{
+    color: #fff;
+    background-color: rgb(113, 8, 8);
+    border-color: rgb(113, 8, 8);
+}
+.bottomFooter{
+    background-color: #383636;
+    font-size: 15px;
+}
+@media (max-width: 1000px){
+    .footer{
+        display: flex;
+        flex-wrap: wrap;
+        
+     }
+    .joincom{
+        margin-top: 0;
+        margin-bottom: 5%;
+    }
+}

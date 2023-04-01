@@ -1,0 +1,18 @@
+@media (max-width: 1000px){
+    .details{
+    flex-direction: column;
+    align-items: center;
+    }
+    .text{
+        padding: 10%;
+    }
+   .buttons{
+    flex-direction: column;
+    align-items: left;
+   }
+   .buttn{
+    width: 100%;
+    margin-bottom: 3%;
+    text-align: center;
+   }
+}

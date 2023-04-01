@@ -1,0 +1,36 @@
+.trending{
+    background-image: url('../../images/trending.svg');
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size:auto;
+}
+.header{
+    font-size: 30px!important;
+}
+h3{
+    font-size: 16px!important;
+}
+.slider{
+    display: flex;
+    overflow-x: scroll;
+    flex-wrap: nowrap;
+    transition: height .5s linear;
+}
+.slide {
+    flex: 0 0 25%;
+    text-align: center;
+    font-size: 15px;
+    margin-right: 10px;
+    margin-bottom: 4%;
+    transition: height .5s cubic-bezier(0.43, 0.41, 1, 1);
+  }
+  ::-webkit-scrollbar{
+    height: 10px;
+    width: 10px;
+    border: 0px;
+  }
+  ::-webkit-scrollbar-thumb{
+    background-color: #c7c7c7;
+    border-radius: 5px;
+    width: 30%;
+  }

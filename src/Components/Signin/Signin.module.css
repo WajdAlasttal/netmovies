@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@700&display=swap');
+.signin{
+    font-family: 'Source Sans Pro', sans-serif;
+}
+h3{
+    font-size: 19.2px!important;
+}
+.signinheader{
+    font-size: 24px!important;
+}
+.clickhere{
+    color:rgb(113, 8, 8);
+}
+.clickhere:hover{
+    color: rgb(113, 8, 8);
+}
+.signinbtn{
+    color: #fff;
+    font-weight: 700;
+    border-color: transparent;
+    font-size: 15px!important;
+    padding: 10px 29px!important; 
+    border-radius: 8px!important;
+    background-color:#252424;
+}
